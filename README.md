@@ -31,7 +31,7 @@ Combine the prompt template, model, and output parser into a LangChain pipeline.
 Test the LCEL expression using multiple input values for topic and length.
 
 ### PROGRAM:
-```
+```python
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_google_genai import ChatGoogleGenerativeAI
